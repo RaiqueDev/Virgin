@@ -1,0 +1,160 @@
+$color-body-dark: #211539;
+
+$color-font: #fff;
+
+.flexCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-start {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.flex-startColumn {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flex-end {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.flex-endColumn {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flexSpace-evenly {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.flexSpace-around {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flexSpace-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flexSpace-evenlyColumn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.flexSpace-aroundColumn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flexSpace-betweenColumn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flexalign-StartColumn {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flexalign-EndColumn {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flexalign-EndColumnBetween {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flexalign-EndColumnAround {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flexalign-EndColumnEvenly {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.flexDirColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexDirRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+::-webkit-scrollbar {
+	background-color: #5454d4;
+	width: 2.5px;
+	height: 4px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #ffffff;
+	border-radius: 999px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 235vh;
+
+	background-color: $color-body-dark;
+
+	.container {
+		width: 100%;
+		height: 100%;
+
+		@extend .flexDirColumn;
+
+		background-color: $color-body-dark;
+
+		background-image: url(/img/WEBDESIGN.svg);
+		background-position-x: 100%;
+		background-position-y: 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+
+	}
+}

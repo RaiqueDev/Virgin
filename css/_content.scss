@@ -1,0 +1,129 @@
+.content {
+  width: 100%;
+  height: 758px;
+
+  @extend .flexCenter;
+
+  margin-top: 142px;
+
+  .container-content {
+    width: 90%;
+    height: 100%;
+
+    @extend .flexSpace-between;
+
+    .content-text {
+      width: 60%;
+      max-width: 168px;
+      height: 100%;
+      max-width: 762px;
+
+      @extend .flexalign-StartColumn;
+
+      img {
+        width: 90%;
+      }
+
+      .btn-content {
+        width: 211px;
+        height: 50px;
+        margin-top: 26px;
+
+        background: #ffffff;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(110, 74, 255, 0.2);
+        border-radius: 10px;
+
+        font-family: "SF UI Display", sans-serif;
+        color: #211539;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      .years-and-persons {
+        width: 314px;
+        height: 57px;
+        margin-top: 73px;
+
+        @extend .flexSpace-between;
+
+        .txt-1 {
+          width: 45%;
+          height: 100%;
+          border-top: 2px solid #fff;
+
+          @extend .flexalign-EndColumn;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .txt-2 {
+          width: 45%;
+          height: 100%;
+          border-top: 2px solid #fff;
+
+          @extend .flexalign-EndColumn;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .travel {
+        width: 90%;
+        max-width: 335px;
+        height: 50px;
+        margin-top: 99px;
+
+        @extend .flex-endColumn;
+
+        border-top: 2px solid #fff;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .You {
+        width: 30%;
+        height: 90px;
+        margin-top: 31px;
+
+        @extend .flex-endColumn;
+      }
+
+      .txt-3 {
+        width: 100%;
+        margin-top: 31px;
+
+        img {
+          width: 45%;
+        }
+      }
+    }
+
+    .content-btn {
+      width: 40%;
+      height: 100%;
+      max-height: 290px;
+
+      .btn {
+        width: 123px;
+        height: 94px;
+        margin-top: 45px;
+        border-radius: 20px;
+
+        border: none;
+        background: #ffffff;
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.973);
+        backdrop-filter: blur(10px);
+
+        cursor: pointer;
+      }
+    }
+  }
+}

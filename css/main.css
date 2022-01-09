@@ -1,0 +1,441 @@
+.flexCenter, .nav, .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-startColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-endColumn, .content .container-content .content-text .travel, .content .container-content .content-text .You {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexSpace-evenly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpace-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpace-between, .nav .container-nav, .nav .container-nav .shop-and-profile, .content .container-content, .content .container-content .content-text .years-and-persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexSpace-evenlyColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpace-aroundColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpace-betweenColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexalign-StartColumn, .content .container-content .content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexalign-EndColumn, .content .container-content .content-text .years-and-persons .txt-1, .content .container-content .content-text .years-and-persons .txt-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexalign-EndColumnBetween {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexalign-EndColumnAround {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexalign-EndColumnEvenly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexDirColumn, body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexDirRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  background-color: #5454d4;
+  width: 2.5px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 235vh;
+  background-color: #211539;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  background-color: #211539;
+  background-image: url(/img/WEBDESIGN.svg);
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  width: 100%;
+  height: 120px;
+  border-bottom: 2px solid rgba(228, 221, 255, 0.3);
+}
+
+.nav .container-nav {
+  width: 90%;
+  max-width: 1000;
+  height: 60px;
+}
+
+.nav .container-nav img {
+  width: 90px;
+  cursor: pointer;
+}
+
+.nav .container-nav .fa-compass {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav .container-nav .shop-and-profile {
+  width: 80px;
+  height: 30px;
+}
+
+.nav .container-nav .shop-and-profile .fa-shopping-cart {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav .container-nav .shop-and-profile .fa-user {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  height: 758px;
+  margin-top: 142px;
+}
+
+.content .container-content {
+  width: 90%;
+  height: 100%;
+}
+
+.content .container-content .content-text {
+  width: 60%;
+  max-width: 168px;
+  height: 100%;
+  max-width: 762px;
+}
+
+.content .container-content .content-text img {
+  width: 90%;
+}
+
+.content .container-content .content-text .btn-content {
+  width: 211px;
+  height: 50px;
+  margin-top: 26px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 2px solid rgba(110, 74, 255, 0.2);
+  border-radius: 10px;
+  font-family: "SF UI Display", sans-serif;
+  color: #211539;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.content .container-content .content-text .years-and-persons {
+  width: 314px;
+  height: 57px;
+  margin-top: 73px;
+}
+
+.content .container-content .content-text .years-and-persons .txt-1 {
+  width: 45%;
+  height: 100%;
+  border-top: 2px solid #fff;
+}
+
+.content .container-content .content-text .years-and-persons .txt-1 img {
+  width: 100%;
+}
+
+.content .container-content .content-text .years-and-persons .txt-2 {
+  width: 45%;
+  height: 100%;
+  border-top: 2px solid #fff;
+}
+
+.content .container-content .content-text .years-and-persons .txt-2 img {
+  width: 100%;
+}
+
+.content .container-content .content-text .travel {
+  width: 90%;
+  max-width: 335px;
+  height: 50px;
+  margin-top: 99px;
+  border-top: 2px solid #fff;
+}
+
+.content .container-content .content-text .travel img {
+  width: 100%;
+}
+
+.content .container-content .content-text .You {
+  width: 30%;
+  height: 90px;
+  margin-top: 31px;
+}
+
+.content .container-content .content-text .txt-3 {
+  width: 100%;
+  margin-top: 31px;
+}
+
+.content .container-content .content-text .txt-3 img {
+  width: 45%;
+}
+
+.content .container-content .content-btn {
+  width: 40%;
+  height: 100%;
+  max-height: 290px;
+}
+
+.content .container-content .content-btn .btn {
+  width: 123px;
+  height: 94px;
+  margin-top: 45px;
+  border-radius: 20px;
+  border: none;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.973);
+          box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.973);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
