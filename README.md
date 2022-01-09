@@ -1,4 +1,4 @@
-<h3>Olá, estou desenvolvendo essa <span color="#F10E29">DASHBOARD</span> nas seguintes tecnologias:</h3> <br>
+<h3>Olá, estou desenvolvendo essa pequena <span color="#F10E29">Landing Page</span> nas seguintes tecnologias:</h3> <br>
 
 
 
