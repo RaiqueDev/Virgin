@@ -1,4 +1,4 @@
-.flexCenter, .nav, .content {
+.flexCenter, .nav, .content, .content .container-content .content-box-2 .grid, .home, .home .container-home, .home .container-home .home-grid .GridItem-1 .InputGroup button, .contentTwo .container-contentTwo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           justify-content: center;
 }
 
-.flex-start {
+.flexStart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,101 @@
           justify-content: center;
 }
 
-.flex-startColumn {
+.flexEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexSpaceEvenly, .nav .container-nav .nav-box-2 .box-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpaceAround {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpaceBetween, .nav .container-nav, .nav .container-nav .nav-box-1, .nav .container-nav .nav-box-2, .nav .container-nav .nav-box-2 .box-1, .content .container-content .content-box-1, .content .container-content .content-box-2, .home .container-home .home-grid, .home .container-home .home-grid .GridItem-1 .InputGroup, .contentTwo .container-contentTwo .box .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexSpaceEvenlyColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpaceAroundColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpaceBetweenColumn, .content .container-content, .contentTwo .container-contentTwo .box .grid .GridItem-2 .box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexStartColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,117 +132,89 @@
           justify-content: center;
 }
 
-.flex-end {
+.flexStartEvenly {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.flex-endColumn, .content .container-content .content-text .travel, .content .container-content .content-text .You {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.flexSpace-evenly {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.flexSpace-around {
+.flexStartAround {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.flexSpace-between, .nav .container-nav, .nav .container-nav .shop-and-profile, .content .container-content, .content .container-content .content-text .years-and-persons {
+.flexStartBetween {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.flexSpace-evenlyColumn {
+.flexStartEvenlyColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.flexSpace-aroundColumn {
+.flexStartAroundColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn {
+.flexStartBetweenColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.flexalign-StartColumn, .content .container-content .content-text {
+.flexEndColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,77 +225,143 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.flexalign-EndColumn, .content .container-content .content-text .years-and-persons .txt-1, .content .container-content .content-text .years-and-persons .txt-2 {
+.flexEndEvenly {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.flexalign-EndColumnBetween {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.flexalign-EndColumnAround {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.flexalign-EndColumnEvenly {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.flexDirColumn, body .container {
+.flexEndAround {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexEndBetween {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexEndEvenlyColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexEndAroundColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexEndBetweenColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexJustifyStart, .contentTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flexJustifyEnd, .content .container-content .content-box-2 .grid .GridItem-1, .contentTwo .container-contentTwo .box .grid .GridItem-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flexJustifyEndColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexDirColumn, body .container, .content .container-content .content-box-2 .grid .GridItem-1 .box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -268,174 +400,374 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
   width: 100%;
-  height: 235vh;
-  background-color: #211539;
+  background-color: #ffffff;
 }
 
 body .container {
   width: 100%;
-  height: 100%;
-  background-color: #211539;
-  background-image: url(/img/WEBDESIGN.svg);
-  background-position-x: 100%;
-  background-position-y: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
 .nav {
   width: 100%;
-  height: 120px;
-  border-bottom: 2px solid rgba(228, 221, 255, 0.3);
+  height: 72px;
 }
 
 .nav .container-nav {
   width: 90%;
-  max-width: 1000;
-  height: 60px;
+  max-width: 1280px;
+  height: 100%;
 }
 
-.nav .container-nav img {
-  width: 90px;
-  cursor: pointer;
+.nav .container-nav .nav-box-1 {
+  width: 578px;
+  height: 100%;
 }
 
-.nav .container-nav .fa-compass {
-  font-size: 25px;
-  color: #fff;
-  cursor: pointer;
+.nav .container-nav .nav-box-1 img {
+  width: 150px;
 }
 
-.nav .container-nav .shop-and-profile {
-  width: 80px;
-  height: 30px;
+.nav .container-nav .nav-box-2 {
+  width: 65%;
+  height: 100%;
 }
 
-.nav .container-nav .shop-and-profile .fa-shopping-cart {
+.nav .container-nav .nav-box-2 .box-1 {
+  width: 578px;
+  height: 100%;
+}
+
+.nav .container-nav .nav-box-2 .box-1 a {
+  color: #14142b;
+  font-size: "16";
+  font-weight: normal;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.nav .container-nav .nav-box-2 .box-2 {
+  width: 30%;
+  height: 100%;
+}
+
+.nav .container-nav .nav-box-2 .box-2 .fa-instagram {
   font-size: 22px;
-  color: #fff;
-  cursor: pointer;
 }
 
-.nav .container-nav .shop-and-profile .fa-user {
+.nav .container-nav .nav-box-2 .box-2 .fa-facebook-f {
+  color: #14142b;
   font-size: 22px;
-  color: #fff;
-  cursor: pointer;
+}
+
+.nav .container-nav .nav-box-2 .box-2 .fa-linkedin-in {
+  color: #14142b;
+  font-size: 22px;
 }
 
 .content {
   width: 100%;
-  height: 758px;
-  margin-top: 142px;
+  height: 100vh;
 }
 
 .content .container-content {
+  width: 100%;
+  height: 90%;
+  max-height: 661px;
+}
+
+.content .container-content .content-box-1 {
   width: 90%;
-  height: 100%;
-}
-
-.content .container-content .content-text {
-  width: 60%;
-  max-width: 168px;
-  height: 100%;
-  max-width: 762px;
-}
-
-.content .container-content .content-text img {
-  width: 90%;
-}
-
-.content .container-content .content-text .btn-content {
-  width: 211px;
   height: 50px;
-  margin-top: 26px;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  border: 2px solid rgba(110, 74, 255, 0.2);
-  border-radius: 10px;
-  font-family: "SF UI Display", sans-serif;
-  color: #211539;
-  font-size: 18px;
-  cursor: pointer;
 }
 
-.content .container-content .content-text .years-and-persons {
-  width: 314px;
-  height: 57px;
-  margin-top: 73px;
+.content .container-content .content-box-1 p {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -1;
+  color: #14142b;
 }
 
-.content .container-content .content-text .years-and-persons .txt-1 {
-  width: 45%;
-  height: 100%;
-  border-top: 2px solid #fff;
+.content .container-content .content-box-1 .ImgApplePodcast {
+  width: 140px;
 }
 
-.content .container-content .content-text .years-and-persons .txt-1 img {
+.content .container-content .content-box-1 .ImgSoundCloud {
+  width: 130px;
+}
+
+.content .container-content .content-box-1 .ImgGooglePodcast {
+  width: 160px;
+}
+
+.content .container-content .content-box-1 .ImgSpotify {
+  width: 110px;
+}
+
+.content .container-content .content-box-2 {
   width: 100%;
+  height: 496px;
 }
 
-.content .container-content .content-text .years-and-persons .txt-2 {
-  width: 45%;
-  height: 100%;
-  border-top: 2px solid #fff;
-}
-
-.content .container-content .content-text .years-and-persons .txt-2 img {
+.content .container-content .content-box-2 .grid {
   width: 100%;
+  height: 496px;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  gap: 4;
 }
 
-.content .container-content .content-text .travel {
+.content .container-content .content-box-2 .grid .GridItem-1 {
+  height: 100%;
+  width: 100%;
+  max-width: 595px;
+}
+
+.content .container-content .content-box-2 .grid .GridItem-1 .box-1 {
+  width: 100%;
+  max-width: 513px;
+  height: 80%;
+  max-height: 336px;
+  background-image: url(/img/Lines.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content .container-content .content-box-2 .grid .GridItem-1 .box-1 h1 {
   width: 90%;
-  max-width: 335px;
-  height: 50px;
-  margin-top: 99px;
-  border-top: 2px solid #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  color: #14142b;
+  margin-bottom: 26px;
 }
 
-.content .container-content .content-text .travel img {
+.content .container-content .content-box-2 .grid .GridItem-1 .box-1 p {
+  width: 90%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  color: #14142b;
+}
+
+.content .container-content .content-box-2 .grid .GridItem-2 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
   width: 100%;
-}
-
-.content .container-content .content-text .You {
-  width: 30%;
-  height: 90px;
-  margin-top: 31px;
-}
-
-.content .container-content .content-text .txt-3 {
-  width: 100%;
-  margin-top: 31px;
-}
-
-.content .container-content .content-text .txt-3 img {
-  width: 45%;
-}
-
-.content .container-content .content-btn {
-  width: 40%;
+  max-width: 710px;
   height: 100%;
-  max-height: 290px;
+  background-color: #503AE7;
 }
 
-.content .container-content .content-btn .btn {
-  width: 123px;
-  height: 94px;
-  margin-top: 45px;
-  border-radius: 20px;
+.content .container-content .content-box-2 .grid .GridItem-2 .box-1 {
+  width: 461px;
+  height: 384px;
+  background-image: url(/img/Image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 56px 79px;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.home .container-home {
+  width: 90%;
+  max-width: 1024px;
+  height: 100%;
+}
+
+.home .container-home .home-grid {
+  width: 100%;
+  height: 302px;
+}
+
+.home .container-home .home-grid .GridItem-1 {
+  width: 486px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home .container-home .home-grid .GridItem-1 h1 {
+  font-size: 48px;
+  color: #14142b;
+  font-style: normal;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .container-home .home-grid .GridItem-1 p {
+  font-size: 16px;
+  color: #14142b;
+  font-weight: normal;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 28px;
+}
+
+.home .container-home .home-grid .GridItem-1 .InputGroup {
+  width: 100%;
+  max-width: 486px;
+  height: 48px;
+}
+
+.home .container-home .home-grid .GridItem-1 .InputGroup input {
+  width: 332px;
+  background-color: #F4F2FF;
   border: none;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.973);
-          box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.973);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  padding: 16px;
+  outline: none;
+}
+
+.home .container-home .home-grid .GridItem-1 .InputGroup button {
+  width: 154px;
+  height: 100%;
+  background-color: #503ae7;
+  color: #fff;
+  border: none;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.home .container-home .home-grid .GridItem-2 {
+  width: 432px;
+  height: 100%;
+}
+
+.home .container-home .home-grid .GridItem-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentTwo {
+  width: 100%;
+  height: 100vh;
+}
+
+.contentTwo .container-contentTwo {
+  width: 100%;
+  max-width: 1252px;
+  height: 90%;
+  max-height: 512px;
+}
+
+.contentTwo .container-contentTwo .box {
+  width: 100%;
+  height: 512px;
+}
+
+.contentTwo .container-contentTwo .box .grid {
+  width: 100%;
+  height: 512px;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  gap: 4;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-1 {
+  width: 100%;
+  max-width: 710px;
+  height: 100%;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-1 .box-1 {
+  width: 90%;
+  height: 100%;
+  background-image: url(/img/Img2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-1 .box-1 button {
+  width: 290px;
+  height: 100px;
+  margin: 340px 422px;
+  background-color: #503ae7;
+  border: none;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-1 .box-1 button .fa-youtube {
+  color: #1ad993;
+  font-size: 28px;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-1 .box-1 button h2 {
+  margin-left: 20px;
+  font-size: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-2 {
+  height: 100%;
+  width: 100%;
+  max-width: 595px;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-2 .box-1 {
+  width: 100%;
+  max-width: 513px;
+  height: 40%;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-2 .box-1 h2 {
+  width: 90%;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  color: #14142b;
+  margin-bottom: 32px;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-2 .box-1 h2 span {
+  color: #503ae7;
+}
+
+.contentTwo .container-contentTwo .box .grid .GridItem-2 .box-1 p {
+  width: 90%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  color: #14142b;
 }
 /*# sourceMappingURL=main.css.map */

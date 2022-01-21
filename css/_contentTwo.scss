@@ -1,0 +1,103 @@
+.contentTwo {
+	width: 100%;
+	height: 100vh;
+
+	@extend .flexJustifyStart;
+
+	.container-contentTwo {
+		width: 100%;
+		max-width: 1252px;
+		height: 90%;
+		max-height: 512px;
+
+		@extend .flexCenter;
+
+		.box {
+			width: 100%;
+			height: 512px;
+
+			.grid {
+				width: 100%;
+				height: 512px;
+				grid-template-columns: repeat(5, 1fr);
+				gap: 4;
+
+				@extend .flexSpaceBetween;
+
+				.GridItem-1 {
+					width: 100%;
+					max-width: 710px;
+					height: 100%;
+
+					.box-1 {
+						width: 90%;
+						height: 100%;
+						background-image: url(/img/Img2.svg);
+						background-position: center;
+						background-repeat: no-repeat;
+
+						button {
+							width: 290px;
+							height: 100px;
+							margin: 340px 422px;
+							background-color: #503ae7;
+							border: none;
+
+							.fa-youtube {
+								color: #1ad993;
+								font-size: 28px;
+							}
+
+							h2 {
+								margin-left: 20px;
+								font-size: normal;
+								font-weight: 600;
+								font-size: 26px;
+								line-height: 150%;
+								letter-spacing: -1px;
+								color: #fff;
+							}
+						}
+					}
+				}
+
+				.GridItem-2 {
+					height: 100%;
+					width: 100%;
+					max-width: 595px;
+
+					@extend .flexJustifyEnd;
+
+					.box-1 {
+						width: 100%;
+						max-width: 513px;
+						height: 40%;
+
+            @extend .flexSpaceBetweenColumn;
+
+						h2 {
+							width: 90%;
+							font-size: 32px;
+							font-style: normal;
+							font-weight: bold;
+							color: #14142b;
+							margin-bottom: 32px;
+
+							span {
+								color: #503ae7;
+							}
+						}
+
+						p {
+							width: 90%;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: normal;
+							color: #14142b;
+						}
+					}
+				}
+			}
+		}
+	}
+}

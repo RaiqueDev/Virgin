@@ -1,123 +1,206 @@
-$color-body-dark: #211539;
-
-$color-font: #fff;
+$primary-color: #ffffff;
+$secund-color: #F4F2FF;
 
 .flexCenter {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.flex-start {
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
+.flexStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.flex-startColumn {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	justify-content: center;
+.flexEnd {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-.flex-end {
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
+.flexSpaceEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.flex-endColumn {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	justify-content: center;
+.flexSpaceAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.flexSpace-evenly {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+.flexSpaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.flexSpace-around {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+// S P A C E  C O L U M N
+
+.flexSpaceEvenlyColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.flexSpace-between {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+.flexSpaceAroundColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.flexSpace-evenlyColumn {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-evenly;
+.flexSpaceBetweenColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.flexSpace-aroundColumn {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-around;
+// S T A R T  C O L U M N
+
+.flexStartColumn {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.flexSpace-betweenColumn {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-between;
+// S T A R T  S P A C E
+
+.flexStartEvenly {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-.flexalign-StartColumn {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	justify-content: space-between;
+.flexStartAround {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
-.flexalign-EndColumn {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	justify-content: space-around;
+.flexStartBetween {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.flexalign-EndColumnBetween {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	justify-content: space-between;
+// S T A R T  S P A C E  C O L U M N
+
+.flexStartEvenlyColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-.flexalign-EndColumnAround {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	justify-content: space-around;
+.flexStartAroundColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
-.flexalign-EndColumnEvenly {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: column;
-	justify-content: space-evenly;
+.flexStartBetweenColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
+
+// E N D  C O L U M N
+
+.flexEndColumn {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// E N D  S P A C E
+
+.flexEndEvenly {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.flexEndAround {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flexEndBetween {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+// S T A R T  S P A C E  C O L U M N
+
+.flexEndEvenlyColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.flexEndAroundColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flexEndBetweenColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+// 
+
+.flexJustifyStart{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flexJustifyEnd{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexJustifyEndColumn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+// D I R  C O L U M N
 
 .flexDirColumn {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+// D I R  R O W
+
 .flexDirRow {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 ::-webkit-scrollbar {
@@ -126,7 +209,7 @@ $color-font: #fff;
 	height: 4px;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #ffffff;
+	background-color: $primary-color;
 	border-radius: 999px;
 }
 
@@ -134,27 +217,20 @@ $color-font: #fff;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
 }
 
 body {
 	width: 100%;
-	height: 235vh;
 
-	background-color: $color-body-dark;
+	background-color: $primary-color;
 
 	.container {
 		width: 100%;
-		height: 100%;
 
 		@extend .flexDirColumn;
 
-		background-color: $color-body-dark;
-
-		background-image: url(/img/WEBDESIGN.svg);
-		background-position-x: 100%;
-		background-position-y: 100%;
-		background-size: 100%;
-		background-repeat: no-repeat;
+		background-color: $primary-color;
 
 	}
 }

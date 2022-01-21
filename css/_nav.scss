@@ -1,46 +1,70 @@
 .nav {
-  width: 100%;
-  height: 120px;
+	width: 100%;
+	height: 72px;
 
-  @extend .flexCenter;
+	@extend .flexCenter;
 
-  border-bottom: 2px solid rgba(228, 221, 255, 0.3);
+	.container-nav {
+		width: 90%;
+		max-width: 1280px;
+		height: 100%;
 
-  .container-nav {
-    width: 90%;
-    max-width: 1000;
-    height: 60px;
+		@extend .flexSpaceBetween;
 
-    @extend .flexSpace-between;
+		.nav-box-1 {
+			width: 578px;
+			height: 100%;
 
-    img {
-      width: 90px;
-      cursor: pointer;
-    }
+			@extend .flexSpaceBetween;
 
-    .fa-compass {
-      font-size: 25px;
-      color: #fff;
-      cursor: pointer;
-    }
+			img {
+				width: 150px;
+			}
+		}
 
-    .shop-and-profile {
-      width: 80px;
-      height: 30px;
+		.nav-box-2 {
+			width: 65%;
+			height: 100%;
 
-      @extend .flexSpace-between;
+			@extend .flexSpaceBetween;
 
-      .fa-shopping-cart {
-        font-size: 22px;
-        color: #fff;
-        cursor: pointer;
-      }
+			.box-1 {
+				width: 578px;
+				height: 100%;
 
-      .fa-user {
-        font-size: 22px;
-        color: #fff;
-        cursor: pointer;
-      }
-    }
-  }
+				@extend .flexSpaceBetween;
+
+				a {
+					color: #14142b;
+					font-size: "16";
+					font-weight: normal;
+					font-style: normal;
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+				}
+			}
+
+			.box-2 {
+				width: 30%;
+				height: 100%;
+
+				@extend .flexSpaceEvenly;
+
+				.fa-instagram {
+					font-size: 22px;
+				}
+
+				.fa-facebook-f {
+					color: #14142b;
+					font-size: 22px;
+				}
+
+				.fa-linkedin-in {
+					color: #14142b;
+					font-size: 22px;
+				}
+			}
+		}
+	}
 }

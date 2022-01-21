@@ -1,0 +1,92 @@
+.home {
+	width: 100%;
+	height: 100vh;
+
+	@extend .flexCenter;
+
+	.container-home {
+		width: 90%;
+		max-width: 1024px;
+		height: 100%;
+
+		@extend .flexCenter;
+
+		.home-grid {
+			width: 100%;
+			height: 302px;
+
+			@extend .flexSpaceBetween;
+
+			.GridItem-1 {
+				width: 486px;
+				height: 100%;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+
+				h1 {
+					font-size: 48px;
+					color: #14142b;
+					font-style: normal;
+					font-weight: bold;
+					display: flex;
+					align-items: center;
+				}
+
+				p {
+					font-size: 16px;
+					color: #14142b;
+					font-weight: normal;
+					font-style: normal;
+					display: flex;
+					align-items: center;
+					line-height: 28px;
+				}
+
+				.InputGroup {
+					width: 100%;
+					max-width: 486px;
+					height: 48px;
+
+					@extend .flexSpaceBetween;
+
+					input {
+						width: 332px;
+						background-color: $secund-color;
+						border: none;
+						padding: 16px;
+						outline: none;
+					}
+
+					button {
+						width: 154px;
+						height: 100%;
+
+						background-color: #503ae7;
+						color: #fff;
+
+						@extend .flexCenter;
+
+						border: none;
+						cursor: pointer;
+
+						font-size: 18px;
+						font-weight: bold;
+						font-style: normal;
+						line-height: 24px;
+					}
+				}
+			}
+
+			.GridItem-2 {
+				width: 432px;
+				height: 100%;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
